@@ -59,62 +59,62 @@ Enterprise-grade, cloud-native and managed Backup-as-a-Service (BaaS) & Disaster
 
 Self-hosted, community-driven backup software, snapshot frameworks, and enterprise disaster recovery platforms. Sorted in descending order by GitHub stargazers. ⭐
 
-### 1. [Restic](https://github.com/restic/restic) [![GitHub stars](https://img.shields.io/github/stars/restic/restic?style=social&color=white)](https://github.com/restic/restic/stargazers)
+### 1. [Restic](https://github.com/restic/restic) [![GitHub_Stars](https://img.shields.io/github/stars/restic/restic?style=social&color=white)](https://github.com/restic/restic/stargazers)
 - **Stack:** Go | **License:** BSD-2-Clause
 - **Highlights:** Secure, fast CLI backup program with client-side cryptography, content-defined chunking (deduplication), and support for arbitrary storage targets (local filesystems, SFTP, Amazon S3, MinIO, Azure Blob, Google Cloud Storage, Backblaze B2). Backups are stored as cryptographic snapshots that are self-contained and independently verifiable. 🔐
 - **Best For:** Developers and infrastructure engineers wanting scriptable, rock-solid CLI backups across heterogeneous cloud and on-premise targets.
 
-### 2. [Duplicati](https://github.com/duplicati/duplicati) [![GitHub stars](https://img.shields.io/github/stars/duplicati/duplicati?style=social&color=white)](https://github.com/duplicati/duplicati/stargazers)
+### 2. [Duplicati](https://github.com/duplicati/duplicati) [![GitHub_Stars](https://img.shields.io/github/stars/duplicati/duplicati?style=social&color=white)](https://github.com/duplicati/duplicati/stargazers)
 - **Stack:** C# / .NET | **License:** LGPL-2.1
 - **Highlights:** Cross-platform web UI and background service that stores encrypted, incremental, compressed backups on cloud storage services (S3, OneDrive, Google Drive, WebDAV, FTP, SSH). Features built-in scheduling, email notifications, AES-256 encryption, and content deduplication. 🌐
 - **Best For:** Desktop users, home labs, and small business servers requiring a user-friendly browser-based management dashboard.
 
-### 3. [Kopia](https://github.com/kopia/kopia) [![GitHub stars](https://img.shields.io/github/stars/kopia/kopia?style=social&color=white)](https://github.com/kopia/kopia/stargazers)
+### 3. [Kopia](https://github.com/kopia/kopia) [![GitHub_Stars](https://img.shields.io/github/stars/kopia/kopia?style=social&color=white)](https://github.com/kopia/kopia/stargazers)
 - **Stack:** Go | **License:** Apache-2.0
 - **Highlights:** Fast, lock-free, content-addressable backup engine featuring client-side encryption, compression, and global deduplication. Offers both an ergonomic command-line tool and a native cross-platform GUI (KopiaUI). Supports repository server mode to connect multiple worker machines to a central storage vault without sharing cloud storage credentials. ⚡
 - **Best For:** Modern multi-machine backup orchestration needing both automated daemon scheduling and visual restore exploration.
 
-### 4. [BorgBackup](https://github.com/borgbackup/borg) [![GitHub stars](https://img.shields.io/github/stars/borgbackup/borg?style=social&color=white)](https://github.com/borgbackup/borg/stargazers)
+### 4. [BorgBackup](https://github.com/borgbackup/borg) [![GitHub_Stars](https://img.shields.io/github/stars/borgbackup/borg?style=social&color=white)](https://github.com/borgbackup/borg/stargazers)
 - **Stack:** Python / C | **License:** BSD-3-Clause
 - **Highlights:** Battle-tested deduplicating archiver with authenticated encryption (AES-256), compression (LZ4, Zstandard), and remote backup support via SSH. Backups can be mounted as local filesystems via FUSE for quick browsing and single-file recovery. 🗄️
 - **Best For:** Linux sysadmins seeking high storage compression ratios, proven reliability, and FUSE-mounted recovery workflows.
 
-### 5. [Velero](https://github.com/vmware-tanzu/velero) [![GitHub stars](https://img.shields.io/github/stars/vmware-tanzu/velero?style=social&color=white)](https://github.com/vmware-tanzu/velero/stargazers)
+### 5. [Velero](https://github.com/vmware-tanzu/velero) [![GitHub_Stars](https://img.shields.io/github/stars/vmware-tanzu/velero?style=social&color=white)](https://github.com/vmware-tanzu/velero/stargazers)
 - **Stack:** Go | **License:** Apache-2.0
 - **Highlights:** The industry-standard open-source Kubernetes disaster recovery and migration tool. Safely backs up and restores Kubernetes cluster resources and persistent storage volumes, supporting scheduled backups, cluster migration, and multi-cloud failover. ☸️
 - **Best For:** DevOps teams and Kubernetes cluster operators needing automated namespace, state, and persistent volume disaster recovery.
 
-### 6. [Backrest](https://github.com/garethgeorge/backrest) [![GitHub stars](https://img.shields.io/github/stars/garethgeorge/backrest?style=social&color=white)](https://github.com/garethgeorge/backrest/stargazers)
+### 6. [Backrest](https://github.com/garethgeorge/backrest) [![GitHub_Stars](https://img.shields.io/github/stars/garethgeorge/backrest?style=social&color=white)](https://github.com/garethgeorge/backrest/stargazers)
 - **Stack:** Go / TypeScript | **License:** GPL-3.0
 - **Highlights:** Modern web UI and orchestrator wrapper for Restic. Adds scheduled backup plans, cron configurations, snapshot browsing with in-browser file diffing, hook execution (e.g. notifications to Discord/Slack/healthchecks), and multi-repository management into a lightweight single-binary service. 🖥️
 - **Best For:** Users wanting the cryptographic speed and deduplication of Restic paired with a rich, responsive web administration interface.
 
-### 7. [pgBackRest](https://github.com/pgbackrest/pgbackrest) [![GitHub stars](https://img.shields.io/github/stars/pgbackrest/pgbackrest?style=social&color=white)](https://github.com/pgbackrest/pgbackrest/stargazers)
+### 7. [pgBackRest](https://github.com/pgbackrest/pgbackrest) [![GitHub_Stars](https://img.shields.io/github/stars/pgbackrest/pgbackrest?style=social&color=white)](https://github.com/pgbackrest/pgbackrest/stargazers)
 - **Stack:** C | **License:** MIT
 - **Highlights:** High-performance, enterprise-grade backup and restore tool for PostgreSQL databases. Features multi-threaded parallel compression/transfer, streaming WAL archiving, delta restores, page checksum verification, and native S3/Azure/GCS cloud object storage support. 🐘
 - **Best For:** Database administrators requiring zero-data-loss Point-in-Time Recovery (PITR) for mission-critical PostgreSQL databases.
 
-### 8. [Barman](https://github.com/EnterpriseDB/barman) [![GitHub stars](https://img.shields.io/github/stars/EnterpriseDB/barman?style=social&color=white)](https://github.com/EnterpriseDB/barman/stargazers)
+### 8. [Barman](https://github.com/EnterpriseDB/barman) [![GitHub_Stars](https://img.shields.io/github/stars/EnterpriseDB/barman?style=social&color=white)](https://github.com/EnterpriseDB/barman/stargazers)
 - **Stack:** Python | **License:** GPL-3.0
 - **Highlights:** Comprehensive Backup and Recovery Manager for PostgreSQL disaster recovery. Maintained by EnterpriseDB, it manages remote backups of multiple PostgreSQL clusters with physical hot backup, WAL streaming, retention policies, and cloud storage integration. 📦
 - **Best For:** Enterprises looking for standardized multi-server PostgreSQL disaster recovery automation.
 
-### 9. [Vorta](https://github.com/borgbase/vorta) [![GitHub stars](https://img.shields.io/github/stars/borgbase/vorta?style=social&color=white)](https://github.com/borgbase/vorta/stargazers)
+### 9. [Vorta](https://github.com/borgbase/vorta) [![GitHub_Stars](https://img.shields.io/github/stars/borgbase/vorta?style=social&color=white)](https://github.com/borgbase/vorta/stargazers)
 - **Stack:** Python / PyQt | **License:** GPL-3.0
 - **Highlights:** Clean desktop graphical user interface for BorgBackup on macOS and Linux desktops. Integrates background scheduling, backup profiles, exclusion presets, archive browsing, and SSH key management. 🎛️
 - **Best For:** Workstation and desktop users who want the power and deduplication of BorgBackup without using command-line commands.
 
-### 10. [Plakar](https://github.com/PlakarKorp/plakar) [![GitHub stars](https://img.shields.io/github/stars/PlakarKorp/plakar?style=social&color=white)](https://github.com/PlakarKorp/plakar/stargazers)
+### 10. [Plakar](https://github.com/PlakarKorp/plakar) [![GitHub_Stars](https://img.shields.io/github/stars/PlakarKorp/plakar?style=social&color=white)](https://github.com/PlakarKorp/plakar/stargazers)
 - **Stack:** Go | **License:** ISC
 - **Highlights:** Immutable, content-addressed backup engine built around the Kloset storage engine. Every snapshot is verified independently without restoring data, using the open PTAR archive format so backups remain inspectable without vendor lock-in. 🔒
 - **Best For:** Sovereignty-focused European and global deployments prioritizing immutable backups and zero-lock-in storage formats.
 
-### 11. [Bareos](https://github.com/bareos/bareos) [![GitHub stars](https://img.shields.io/github/stars/bareos/bareos?style=social&color=white)](https://github.com/bareos/bareos/stargazers)
+### 11. [Bareos](https://github.com/bareos/bareos) [![GitHub_Stars](https://img.shields.io/github/stars/bareos/bareos?style=social&color=white)](https://github.com/bareos/bareos/stargazers)
 - **Stack:** C++ | **License:** AGPL-3.0
 - **Highlights:** Cross-network, enterprise-grade open-source client-server backup director with native hypervisor plugins for VMware vSphere, Microsoft Hyper-V, and Proxmox VE. Supports disk, tape, deduplication appliances, and S3 object storage with multi-tenant RBAC. 📼
 - **Best For:** Data center sysadmins needing full hypervisor VM backup automation and tape/disk storage tiering without open-core licensing fees.
 
-### 12. [Proxmox Backup Server](https://git.proxmox.com/?p=proxmox-backup.git) [![GitHub stars](https://img.shields.io/github/stars/proxmox/proxmox-backup?style=social&color=white)](https://github.com/proxmox/proxmox-backup/stargazers)
+### 12. [Proxmox Backup Server](https://git.proxmox.com/?p=proxmox-backup.git) [![GitHub_Stars](https://img.shields.io/github/stars/proxmox/proxmox-backup?style=social&color=white)](https://github.com/proxmox/proxmox-backup/stargazers)
 - **Stack:** Rust | **License:** AGPL-3.0
 - **Highlights:** Purpose-built enterprise backup server designed for Proxmox VE virtualization environments, container clusters, and physical hosts. Features chunk-level client-side encryption, Zstandard compression, and ultra-fast incremental deduplication via QEMU dirty-bitmap tracking. 🏗️
 - **Best For:** Organizations running Proxmox VE environments wanting native VM/container backup integration with bare-metal performance.
